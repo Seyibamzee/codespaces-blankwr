@@ -13,14 +13,14 @@ eatCheese.style.display="none";
 // left left left left left left left left left left left left 
 
 left.addEventListener('click', function()  {
-    leftRight.style.display="none"; 
+    room.style.display="none"; 
     right.style.display="none";
     left.style.display="none";
 eatCheese.style.display="block";
     room.style.display="block";
+    leftRight.style.display="none";
 
-
-   text.innerHTML="to eat double click or search for cheese";
+   text.innerHTML="";
 });
 
 // left choice 1 left choice 1 left choice 1 left choice 1 left choice 1 left choice 1 
