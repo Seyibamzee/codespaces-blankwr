@@ -1,3 +1,18 @@
 img{
     width:300px;
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Warbones-BWgeB.ttf);
+  }
+  
+p{
+    font-family: myFirstFont;
+    color: #000000; 
+  }
+  body
+   {
+   background-color:#8F8F8F;
+  }
+  
